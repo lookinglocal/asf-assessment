@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en" ng-app="foobar">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <script async="true" defer="true" src="src/index.js"></script>
+</head>
+<body>
+<div class="container">
+    <h1>Assessment test</h1>
+
+    <h2>About</h2>
+
+    <p>Task requires you to implement custom angular schema addon which interacts with
+        our address lookup API. An example of simple addon and its implementation is implemented in <code>NameSplitter.js</code>
+        which is then registered in <code>index.js</code>.</p>
+
+    <p>Address API configuration is available in <code>config.js</code> which is already imported in
+        <code>index.js</code> and exposed in Angular module as a constant.</p>
+
+    <h2>Schema form</h2>
+    <include src="src/form.html"></include>
+</div>
+</body>
+</html>
