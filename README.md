@@ -16,7 +16,7 @@ Assessment test
 
 - `$ npm test` - will check javascript files against [StandardJS](https://standardjs.com/)
 
-## Components
+## Dependencies
 
 - [AngularJS](https://docs.angularjs.org/api)
 - [Angular Schema Form](https://github.com/json-schema-form/angular-schema-form/blob/master/docs/index.md)
